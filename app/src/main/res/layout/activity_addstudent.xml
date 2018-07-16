@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+>
+
+       >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/namestudent"
+        android:id="@+id/name"
+
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="@string/dob"
+        android:id="@+id/dob"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:id="@+id/mob"
+        android:hint="@string/contact_no"/>
+
+    <Button
+        android:id="@+id/addstudent"
+        android:layout_width="121dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/ButoonADD"
+        android:onClick="adddata"
+        android:text="@string/addstudent"
+        android:textStyle="bold" />
+
+</LinearLayout>
